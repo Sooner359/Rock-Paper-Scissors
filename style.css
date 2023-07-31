@@ -1,0 +1,10 @@
+body{
+    background-color: aqua;
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    margin-top: 250px;
+}
