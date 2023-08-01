@@ -10,9 +10,14 @@
     <h1>Welcome to Rock, Paper, Scissors</h1>
     <h3>Click Play Round to start a match against the computer.</h3>
     <h3>Click Play Again? to reset the game.</h3>
+    <h3>Player score:<span id="Player_Score">0</span></h3>
+    <h3>Computer score:<span id="Computer_Score"> 0</span></h3>
+    <h2 id="result"></h2>
     <script src="rps.js"></script>
-    <button onclick="game()">Play Round</button>
-    <button onclick="window.location.reload()">Play again?</button>
+    <button id="rock" onclick="chooseRock()">Rock</button>
+    <button id="paper" onclick="choosePaper()">Paper</button>
+    <button id="scissors" onclick="chooseScissors()">Scissors</button>
+    <button id="play-again" onclick="window.location.reload()">Play Again?</button>
 
 </body>
 </html>
