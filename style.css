@@ -12,9 +12,27 @@ button{
     background-color: aquamarine;
 }
 
+#winlink{
+    text-decoration: none;
+    color: red;
+}
+
 #play-again{
    background-color: rgb(131, 241, 255);
 
+}
+
+#ng{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 0px;
+}
+
+select{
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 h1{

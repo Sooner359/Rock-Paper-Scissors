@@ -5,6 +5,7 @@ function getWinner() {
     if (playerScore==5) {
         //alert("Player wins!")
         document.getElementById('result').innerHTML="Player wins!"
+        document.getElementById("winlink").innerHTML="Game unlocked!"
     }
 
     else if (compScore==5) {
